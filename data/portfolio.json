@@ -1,1 +1,121 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+    "name": "Shivam",
+    "headerTaglineOne": "Hello 👋",
+    "headerTaglineTwo": "I'm Shivam Bhushan - curious",
+    "headerTaglineThree": "devloper and designer",
+    "headerTaglineFour": " based in Chennai, India.",
+    "showCursor": true,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+        {
+            "id": "1",
+            "title": "Github",
+            "link": "https://github.com/shivam-bhushan"
+        },
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/shivam-bhushan/"
+        },
+        {
+            "id": "4",
+            "title": "Email",
+            "link": "mailto:shivam13202@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "AmpAscend",
+            "description": "This app empowers users to monitor EV charging, solar production, home energy, and find nearby charging stations.",
+            "imageSrc": "https://i.pinimg.com/564x/6c/06/b3/6c06b36ea59ee4910dc6835d28c019cd.jpg",
+            "url": "https://github.com/orgs/AmpAscend/repositories"
+        },
+        {
+            "id": "2",
+            "title": "Code Snippet CLI Tool",
+            "description": "Command Line Interface (CLI) for managing frequently used code snippets.",
+            "imageSrc": "https://i.pinimg.com/564x/16/fb/e4/16fbe405237d66791781aece09a9c759.jpg",
+            "url": "https://github.com/shivam-bhushan/CodeSnippetCLI"
+        },
+        {
+            "id": "3",
+            "title": "ChatterBox",
+            "description": "ChatterBox is a simple and delightful social media app built using Flutter and powered by Firebase.",
+            "imageSrc": "https://i.pinimg.com/564x/89/38/70/893870d510f6d21890df694977d9840d.jpg",
+            "url": "https://github.com/shivam-bhushan/ChatterBox"
+        },
+        {
+            "id": "4",
+            "title": "Food Delivery App",
+            "description": "Zomato style food delivery app",
+            "imageSrc": "https://i.pinimg.com/564x/69/1a/48/691a488254d787bdd36c410326a8fff6.jpg",
+            "url": "http://chetanverma.com/"
+        },
+        {
+            "id": "5",
+            "title": "Mental Health App UI",
+            "description": "Front-end for mental health app implemented in Flutter",
+            "imageSrc": "https://i.pinimg.com/736x/a3/90/e3/a390e305f1e19a96ad9e60799177cdbe.jpg",
+            "url": "https://github.com/shivam-bhushan/mental-health-app-ui"
+        }
+    ],
+    "services": [],
+    "aboutpara": "Passionate and resourceful Computer Science undergraduate at SRM Institute of Science and Technology with hands-on experience in machine learning, mobile application development, and software engineering. Demonstrated ability in conducting impactful research, building predictive models, and crafting user-centric applications. Proficient in various programming languages and frameworks including Python, JavaScript, React Native, and TensorFlow. Proven leadership skills through managing teams and driving successful initiatives. Committed to continuous learning and exploring innovative solutions to real-world challenges.",
+    "resume": {
+        "tagline": "👋  I'm a software engineer, UI designer.",
+        "description": "Enthusiastic Computer Science undergrad at SRM Institute of Science and Technology. Skilled in machine learning, mobile app development, and software engineering. Excels in research, predictive modeling, and crafting user-friendly apps. Proficient in Python, JavaScript, React Native, and TensorFlow. A natural leader with a passion for innovation and problem-solving.",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "January 2024 - Present",
+                "type": "Internship",
+                "position": "Research and Development Intern at IIT Madras",
+                "bullets": "Creating a predictive model for tide values with the dual purpose of replacing missing data during recording device maintenance or downtime and forecasting future values,  Designing and developing a mobile application aimed at facilitating seamless communication between sailors and navigating officers, Conducted thorough data analysis to identify key factors influencing tide patterns incorporating real-time data feeds into the prediction model"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "June 2023 - September 2023",
+                "type": "Internship",
+                "position": "Artificial Intelligence Intern at Tech Mahindra",
+                "bullets": "Supported the development of machine learning and deep learning models under the guidance of senior AI re- searchers., Implemented algorithms and models using TensorFlow YOLOv8 Keras Pandas and Matplotlib contributing to the development of 2 successful projects"
+            }
+        ],
+        "education": {
+            "universityName": "SRM Institute of Science and Technology",
+            "universityDate": "2020-2024",
+            "universityPara": ""
+        },
+        "languages": [
+            "Javascript",
+            "HTML5",
+            "CSS",
+            "Python",
+            "Java",
+            "C++"
+        ],
+        "frameworks": [
+            "React",
+            "Typescript",
+            "NodeJs",
+            "React Native",
+            "Express.js",
+            "Next.js",
+            "Flutter",
+            "Tensorflow",
+            "Keras",
+            "Pandas",
+            "Matplotlib",
+            "Darts (Python)"
+        ],
+        "others": [
+            "Figma",
+            "AdobeXD",
+            "AWS",
+            "Blender3D",
+            "Adobe Photoshop"
+        ]
+    }
+}
