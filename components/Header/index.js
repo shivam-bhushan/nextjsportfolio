@@ -51,10 +51,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     className="h-5"
                     src={`/images/${
                       !open
-                        ? theme === "dark"
+                        ? mounted && theme === "dark"
                           ? "menu-white.svg"
                           : "menu.svg"
-                        : theme === "light"
+                        : mounted && theme === "light"
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
@@ -64,7 +64,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             </div>
             <Popover.Panel
               className={`absolute right-0 z-10 w-11/12 p-4 ${
-                theme === "dark" ? "bg-slate-800" : "bg-white"
+                mounted && theme === "dark" ? "bg-slate-800" : "bg-white"
               } shadow-md rounded-md`}
             >
               {!isBlog ? (
@@ -73,15 +73,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <Button onClick={handleAboutScroll}>About</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
-                  )}
-                  {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:shivam13202@gmail.com")
-                      }
-                    >
-                      Resume
-                    </Button>
                   )}
 
                   <Button
@@ -97,14 +88,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   </Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
-                  )}
-                  {showResume && (
-                    <Button
-                      onClick={() => router.push("/resume")}
-                      classes="first:ml-1"
-                    >
-                      Resume
-                    </Button>
                   )}
 
                   <Button
@@ -136,14 +119,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
-              >
-                Resume
-              </Button>
-            )}
 
             <Button onClick={() => window.open("mailto:shivam13202@gmail.com")}>
               Contact
@@ -164,14 +139,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             <Button onClick={() => router.push("/")}>Home</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
-            {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
-              >
-                Resume
-              </Button>
             )}
 
             <Button onClick={() => window.open("mailto:shivam13202@gmail.com")}>

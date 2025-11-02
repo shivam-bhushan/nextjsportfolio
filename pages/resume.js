@@ -39,22 +39,22 @@ const Resume = () => {
       >
         <Header isBlog />
         {mount && (
-          <div className="mt-10 w-full flex flex-col items-center">
+          <div className="mt-10 mob:mt-5 w-full flex flex-col items-center mob:px-2">
             <div
               className={`w-full ${
                 mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
-              } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
+              } max-w-4xl p-20 mob:p-6 tablet:p-10 desktop:p-20 rounded-lg shadow-sm`}
             >
-              <h1 className="text-3xl font-bold">{name}</h1>
-              <h2 className="text-xl mt-5">{resume.tagline}</h2>
-              <h2 className="w-4/5 text-xl mt-5 opacity-50">
+              <h1 className="text-3xl mob:text-2xl font-bold">{name}</h1>
+              <h2 className="text-xl mob:text-lg mt-5 mob:mt-3">{resume.tagline}</h2>
+              <h2 className="w-4/5 mob:w-full text-xl mob:text-base mt-5 mob:mt-3 opacity-50">
                 {resume.description}
               </h2>
-              <div className="mt-2">
+              <div className="mt-2 mob:mt-3">
                 <Socials />
               </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Experience</h1>
+              <div className="mt-5 mob:mt-6">
+                <h1 className="text-2xl mob:text-xl font-bold">Experience</h1>
 
                 {resume.experiences.map(
                   ({ id, dates, type, position, bullets }) => (
@@ -68,10 +68,10 @@ const Resume = () => {
                   )
                 )}
               </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Education</h1>
-                <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
+              <div className="mt-5 mob:mt-6">
+                <h1 className="text-2xl mob:text-xl font-bold">Education</h1>
+                <div className="mt-2 mob:mt-3">
+                  <h2 className="text-lg mob:text-base">{resume.education.universityName}</h2>
                   <h3 className="text-sm opacity-75">
                     {resume.education.universityDate}
                   </h3>
@@ -80,15 +80,15 @@ const Resume = () => {
                   </p>
                 </div>
               </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Skills</h1>
+              <div className="mt-5 mob:mt-6">
+                <h1 className="text-2xl mob:text-xl font-bold">Skills</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
-                    <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Languages</h2>
+                    <div className="mt-2 mob:mt-4">
+                      <h2 className="text-lg mob:text-base font-semibold">Languages</h2>
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="ml-5 py-2 mob:py-1 text-sm">
                             {language}
                           </li>
                         ))}
@@ -97,11 +97,11 @@ const Resume = () => {
                   )}
 
                   {resume.frameworks && (
-                    <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Frameworks</h2>
+                    <div className="mt-2 mob:mt-4">
+                      <h2 className="text-lg mob:text-base font-semibold">Frameworks</h2>
                       <ul className="list-disc">
                         {resume.frameworks.map((framework, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="ml-5 py-2 mob:py-1 text-sm">
                             {framework}
                           </li>
                         ))}
@@ -110,11 +110,11 @@ const Resume = () => {
                   )}
 
                   {resume.others && (
-                    <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Others</h2>
+                    <div className="mt-2 mob:mt-4">
+                      <h2 className="text-lg mob:text-base font-semibold">Others</h2>
                       <ul className="list-disc">
                         {resume.others.map((other, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="ml-5 py-2 mob:py-1 text-sm">
                             {other}
                           </li>
                         ))}
