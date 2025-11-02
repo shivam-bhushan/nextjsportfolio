@@ -1,1 +1,100 @@
-{"name":"Shivam","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Shivam Bhushan - curious","headerTaglineThree":"developer ","headerTaglineFour":" based in Mumbai, India.","showCursor":true,"showBlog":false,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/shivam-bhushan"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/shivam-bhushan/"},{"id":"4","title":"Email","link":"mailto:shivam13202@gmail.com"}],"projects":[{"id":"1","title":"AmpAscend","description":"This app empowers users to monitor EV charging, solar production, home energy, and find nearby charging stations.","imageSrc":"https://i.pinimg.com/originals/e4/af/ce/e4afce49a5d7d02784b95f9aaccd74d8.jpg","url":"https://github.com/orgs/AmpAscend/repositories"},{"id":"2","title":"Interview Platform","description":"It allows users (interviewer and interviewee) to create or join rooms and have video conversations including a p2p code editor for coding assessments.","imageSrc":"https://i.pinimg.com/originals/1b/72/90/1b72904ad0b4b904981557267a33c069.jpg","url":"https://github.com/shivam-bhushan/interview_platform1"},{"id":"3","title":"ChatterBox","description":"ChatterBox is a simple and delightful social media app built using Flutter and powered by Firebase.","imageSrc":"https://i.pinimg.com/originals/81/3e/27/813e276ebe44ff33dc7601210eb7be39.jpg","url":"https://github.com/shivam-bhushan/ChatterBox"},{"id":"4","title":"Food Delivery App","description":"Zomato style food delivery app","imageSrc":"https://i.pinimg.com/originals/0d/a9/ee/0da9ee5d3bb86a1995c6699e65572988.jpg","url":"https://github.com/shivam-bhushan/DeliveryApp"},{"id":"5","title":"Invoice Generator","description":"It allows users to create and download professional-looking invoices with ease, featuring functionalities such as the calculation of totals, taxes, and discounts.","imageSrc":"https://i.pinimg.com/564x/41/4e/07/414e07fef49f8192d2cf7dada2a60082.jpg","url":"https://github.com/shivam-bhushan/InvoiceGenerator"}],"services":[],"aboutpara":"Passionate and resourceful CS grad with hands-on experience in full stack development and predictive modeling . Demonstrated ability in UI design and coding user-centric applications. Proficient in various programming languages and frameworks including Python, JavaScript, React, React Native and Node. Proven leadership skills through managing college clubs and driving successful initiatives. Committed to continuous learning and exploring innovative solutions to real-world challenges.","resume":{"tagline":"👋  I'm a software engineer","description":"Enthusiastic CSE fresher skilled in full stack development and problem solving. Excels in research, predictive modeling, and crafting user-friendly apps. Proficient in Python, JavaScript, React, React Native, and Node. A natural leader with a passion for innovation and problem-solving.","experiences":[{"id":"1","dates":"January 2024 - July 2024","type":"Internship","position":"Research and Development Intern at IIT Madras","bullets":"Developed a GUI using Electron React.js and Node.js eliminating the need for multiple endpoints and improving the Vessel Management System's accessibility., Contributed to an app that enhanced communication between sailors and navigating officers resulting in a 30% increase in real-time coordination using React Native Node.js and Express.js., Worked on a predictive tide value model using advanced machine learning algorithms like LSTM and NARX implemented using Python and its frameworks."},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"June 2023 - September 2023","type":"Internship","position":"Software Development Intern at Tech Mahindra","bullets":"Developed a worker detection model to prevent accidents enhancing workplace safety., Achieved 85% accuracy in a defect detection model for car manufacturing defects through collaborative efforts in data preprocessing model training and testing."}],"education":{"universityName":"SRM Institute of Science and Technology","universityDate":"2020-2024","universityPara":""},"languages":["Python","HTML5/CSS","JavaScript","C++","SQL"],"frameworks":["React.js","Node.js","React Native","Express.js","Redux","Electron","Socket.io"],"others":["Figma","Git","Firebase"]}}
+{
+  "name": "Shivam Bhushan",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Shivam Bhushan - ",
+  "headerTaglineThree": "Software Engineer 2",
+  "headerTaglineFour": " based in Bangalore, India.",
+  "showCursor": true,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/shivam-bhushan"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/shivam-bhushan/"
+    },
+    {
+      "id": "3",
+      "title": "Leetcode",
+      "link": "https://leetcode.com/shivambhushan"
+    },
+    {
+      "id": "4",
+      "title": "Email",
+      "link": "mailto:shivam13202@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "AmpAscend",
+      "description": "This app empowers users to monitor EV charging, solar production, home energy, and find nearby charging stations.",
+      "imageSrc": "https://i.pinimg.com/originals/e4/af/ce/e4afce49a5d7d02784b95f9aaccd74d8.jpg",
+      "url": "https://github.com/orgs/AmpAscend/repositories"
+    },
+    {
+      "id": "2",
+      "title": "Interview Platform",
+      "description": "It allows users (interviewer and interviewee) to create or join rooms and have video conversations including a p2p code editor for coding assessments.",
+      "imageSrc": "https://i.pinimg.com/originals/1b/72/90/1b72904ad0b4b904981557267a33c069.jpg",
+      "url": "https://github.com/shivam-bhushan/interview_platform1"
+    },
+    {
+      "id": "3",
+      "title": "ChatterBox",
+      "description": "ChatterBox is a simple and delightful social media app built using Flutter and powered by Firebase.",
+      "imageSrc": "https://i.pinimg.com/originals/81/3e/27/813e276ebe44ff33dc7601210eb7be39.jpg",
+      "url": "https://github.com/shivam-bhushan/ChatterBox"
+    },
+    {
+      "id": "4",
+      "title": "Food Delivery App",
+      "description": "Zomato style food delivery app",
+      "imageSrc": "https://i.pinimg.com/originals/0d/a9/ee/0da9ee5d3bb86a1995c6699e65572988.jpg",
+      "url": "https://github.com/shivam-bhushan/DeliveryApp"
+    },
+    {
+      "id": "5",
+      "title": "Invoice Generator",
+      "description": "It allows users to create and download professional-looking invoices with ease, featuring functionalities such as the calculation of totals, taxes, and discounts.",
+      "imageSrc": "https://i.pinimg.com/564x/41/4e/07/414e07fef49f8192d2cf7dada2a60082.jpg",
+      "url": "https://github.com/shivam-bhushan/InvoiceGenerator"
+    }
+  ],
+  "services": [],
+  "aboutpara": "Passionate Software Engineer with expertise in full-stack development, cloud technologies, and AI automation. Currently working at Walmart Global Tech, where I've significantly improved platform efficiency and led organization-wide enablement initiatives. Experienced in building scalable solutions using Python, JavaScript, React, Node.js, and Google Cloud Platform. Proven track record of reducing migration times, improving developer productivity, and creating innovative tools. Awarded the Bravo Award at Walmart for early adoption of GenAI and proactive contributions to automation. Strong background in research and development from IIT Madras, with expertise in real-time systems and predictive analytics.",
+  "resume": {
+    "tagline": "👋  I'm a Software Engineer 2 at Walmart Global Tech",
+    "description": "Passionate engineer specializing in full-stack development, cloud technologies, and AI automation. Experienced in building scalable solutions and driving organizational impact through innovative tools and processes.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Jan 2025 - Present",
+        "type": "Full Time",
+        "position": "Software Engineer 2 at Walmart Global Tech, Bangalore",
+        "bullets": "Automated migration of thousands of DAGs across platform versions, reducing migration time from ~40 minutes per DAG to 15 minutes for 5 DAGs using Python and cloud APIs, improving overall efficiency and developer productivity. || Developed an automated manifest file updater in Python that allowed new applications to complete authentication by updating environment variables, reducing setup effort by ~80% and standardizing security practices across teams. || Built an AI-powered low-code/no-code DAG creation platform enabling users to generate and deploy workflows through a conversational chatbot interface using Node.js, FastAPI, and Google ADK. || Led organization-wide enablement for GitHub Copilot, conducting hands-on sessions for engineers and leadership teams. Authored setup guides and produced walkthrough videos, significantly increasing usage across the organization. || Developed an ML-powered analytics assistant during Walmart's AI Hackathon that lets business users query insights in natural language, significantly streamlining data access and empowering faster, data-driven decision-making."
+      },
+      {
+        "id": "2",
+        "dates": "Jan 2024 - July 2024",
+        "type": "Internship",
+        "position": "Research and Development Intern at IIT Madras, Chennai",
+        "bullets": "Designed and implemented a GUI using Electron, React.js, and Node.js for the Vessel Management System, reducing dependency on multiple endpoints and streamlining operations. || Enhanced real-time communication between sailors and navigating officers by developing an app using React Native, Node.js, Express.js, and REST APIs for efficient data transmission."
+      }
+    ],
+    "education": {
+      "universityName": "SRM Institute of Science and Technology",
+      "universityDate": "Sept 2020 - June 2024",
+      "universityPara": "BTech (Computer Science and Engineering)"
+    },
+    "languages": ["Python", "C++", "JavaScript", "SQL", "HTML", "CSS"],
+    "frameworks": ["React.js", "Next.js", "Node.js", "Express.js", "Tailwind CSS", "Apache Airflow", "Hadoop", "Google Cloud Dataproc"],
+    "others": ["Google Cloud Platform (GCS, Dataproc, Airflow)", "Git", "Docker", "Kubernetes", "CI/CD", "Google ADK", "LangChain"]
+  }
+}

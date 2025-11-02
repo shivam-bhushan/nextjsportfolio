@@ -4,38 +4,46 @@ import "custom-cursor-react/dist/index.css";
 import { useTheme } from "next-themes";
 
 const Cursor = () => {
-  const theme = useTheme();
-  const [mount, setMount] = useState();
+  const { theme, resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
-  const getCusomColor = () => {
-    if (theme.theme === "dark") {
+  // Only show after mounting to avoid hydration issues
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const getCustomColor = () => {
+    // Use resolvedTheme for more reliable theme detection
+    const currentTheme = resolvedTheme || theme;
+    if (currentTheme === "dark") {
       return "#fff";
-    } else if (theme.theme === "light") {
+    } else if (currentTheme === "light") {
       return "#000";
     }
+    // Default fallback color
+    return "#000";
   };
 
-  useEffect(() => {
-    setMount(true);
-  }, []);
+  // Don't render until mounted and theme is resolved
+  if (!mounted || !resolvedTheme) {
+    return null;
+  }
+  
   return (
-    <>
-      {mount && (
-        <CustomCursor
-          targets={[".link"]}
-          customClass="custom-cursor"
-          dimensions={30}
-          fill={getCusomColor()}
-          smoothness={{
-            movement: 0.2,
-            scale: 0.1,
-            opacity: 0.2,
-          }}
-          targetOpacity={0.5}
-          targetScale={2}
-        />
-      )}
-    </>
+    <CustomCursor
+      key={resolvedTheme} // Force remount when theme changes
+      targets={[".link"]}
+      customClass="custom-cursor"
+      dimensions={30}
+      fill={getCustomColor()}
+      smoothness={{
+        movement: 0.2,
+        scale: 0.1,
+        opacity: 0.2,
+      }}
+      targetOpacity={0.5}
+      targetScale={2}
+    />
   );
 };
 
