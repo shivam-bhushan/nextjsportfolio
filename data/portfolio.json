@@ -7,7 +7,7 @@
   "showCursor": true,
   "showBlog": false,
   "darkMode": true,
-  "showResume": true,
+  "showResume": false,
   "socials": [
     {
       "id": "1",
@@ -33,34 +33,41 @@
   "projects": [
     {
       "id": "1",
+      "title": "EmailGPT",
+      "description": "Built EmailGPT, a systems-driven email intelligence pipeline that ingests, filters, chunks, embeds, and retrieves Gmail data for LLM-powered insights..",
+      "imageSrc": "https://i.pinimg.com/736x/53/ab/3b/53ab3ba15fc611778231c96880a67f1d.jpg",
+      "url": ""
+    },
+    {
+      "id": "2",
       "title": "AmpAscend",
       "description": "This app empowers users to monitor EV charging, solar production, home energy, and find nearby charging stations.",
       "imageSrc": "https://i.pinimg.com/originals/e4/af/ce/e4afce49a5d7d02784b95f9aaccd74d8.jpg",
       "url": "https://github.com/orgs/AmpAscend/repositories"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Interview Platform",
       "description": "It allows users (interviewer and interviewee) to create or join rooms and have video conversations including a p2p code editor for coding assessments.",
       "imageSrc": "https://i.pinimg.com/originals/1b/72/90/1b72904ad0b4b904981557267a33c069.jpg",
       "url": "https://github.com/shivam-bhushan/interview_platform1"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "ChatterBox",
       "description": "ChatterBox is a simple and delightful social media app built using Flutter and powered by Firebase.",
       "imageSrc": "https://i.pinimg.com/originals/81/3e/27/813e276ebe44ff33dc7601210eb7be39.jpg",
       "url": "https://github.com/shivam-bhushan/ChatterBox"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Food Delivery App",
       "description": "Zomato style food delivery app",
       "imageSrc": "https://i.pinimg.com/originals/0d/a9/ee/0da9ee5d3bb86a1995c6699e65572988.jpg",
       "url": "https://github.com/shivam-bhushan/DeliveryApp"
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Invoice Generator",
       "description": "It allows users to create and download professional-looking invoices with ease, featuring functionalities such as the calculation of totals, taxes, and discounts.",
       "imageSrc": "https://i.pinimg.com/564x/41/4e/07/414e07fef49f8192d2cf7dada2a60082.jpg",
@@ -71,15 +78,14 @@
   "aboutpara": "Passionate Software Engineer with expertise in full-stack development, cloud technologies, and AI automation. Currently working at Walmart Global Tech, where I've significantly improved platform efficiency and led organization-wide enablement initiatives. Experienced in building scalable solutions using Python, JavaScript, React, Node.js, and Google Cloud Platform. Proven track record of reducing migration times, improving developer productivity, and creating innovative tools. Awarded the Bravo Award at Walmart for early adoption of GenAI and proactive contributions to automation. Strong background in research and development from IIT Madras, with expertise in real-time systems and predictive analytics.",
   "resume": {
     "tagline": "👋  I'm a Software Engineer 2 at Walmart Global Tech",
-    "description": "Passionate engineer specializing in full-stack development, cloud technologies, and AI automation. Experienced in building scalable solutions and driving organizational impact through innovative tools and processes.",
+    "description": "Software Engineer with experience building and operating backend services, data workflows, and internal developer platforms in production environments. Strong foundation in data structures and algorithms, with hands-on experience developing automation, authentication middleware, and AI-assisted tooling in Python and JavaScript. Currently working at Walmart Global Tech on large-scale workflow migration, platform reliability, and productivity tools supporting data and engineering teams",
     "experiences": [
       {
         "id": "1",
         "dates": "Jan 2025 - Present",
         "type": "Full Time",
         "position": "Software Engineer 2 at Walmart Global Tech, Bangalore",
-        "bullets": "Automated migration of thousands of DAGs across platform versions, reducing migration time from ~40 minutes per DAG to 15 minutes for 5 DAGs using Python and cloud APIs, improving overall efficiency and developer productivity. || Developed a reusable Single Sign-On (SSO) middleware in Python that allowed new applications to integrate authentication by updating environment variables, reducing setup effort by ~80% and standardizing security practices across teams. || Built an AI-powered low/no-code DAG creation platform enabling users to generate and deploy workflows through a conversational chatbot interface using React, FastAPI, and Google ADK. || Led organization-wide enablement for GitHub Copilot, conducting hands-on sessions for engineers and leadership teams. Authored setup and usage documentation, significantly increasing adoption across the data organization. || Developed an ML-powered analytics assistant during Walmart's AI Hackathon that let business users query insights in natural language, significantly reducing decision-making time and empowering faster, data-driven actions."
-      },
+        "bullets": "Automated migration of thousands of DAGs across platform versions, reducing migration time from ~40 minutes per DAG to 15 minutes for 5 DAGs using Python and cloud APIs, improving overall efficiency and developer productivity.|| Developed a reusable Single Sign-On (SSO) middleware in Node.js that allowed new applications to integrate authentication by updating environment variables, reducing setup effort by ~80% and standardizing security practices across teams.|| Built an AI-powered low/no-code DAG creation platform enabling users to generate and deploy workflows through a conversational chatbot interface using React, FastAPI, and Google ADK|| Led organization-wide enablement for GitHub Copilot, conducting hands-on sessions for engineers and leadership teams. Authored setup and usage documentation, significantly increasing adoption across the data organization.|| Developed an ML-powered analytics assistant during Walmart’s AI Hackathon that let business users query insights in natural language, significantly reducing decision-making time and empowering faster, data-driven actions."      },
       {
         "id": "2",
         "dates": "Jan 2024 - July 2024",
